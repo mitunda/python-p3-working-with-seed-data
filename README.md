@@ -79,7 +79,7 @@ With SQLAlchemy, we've seen how simple it is to add data to a database by
 using built-in methods that will write SQL code for us. For instance, to create
 a new record in the `games` table, you can open up the Python shell, generate
 a SQLAlchemy session, create an instance of the `Game` model, and commit it to
-the session. To simplify this even further, we've used `lib/debug.py` to create
+the session. To simplify this even further, we've used `lib/debug.py` to do the create
 a session and `import` relevant classes. Run `debug.py` from the `lib/`
 directory and enter the following into the `ipdb` shell:
 
